@@ -9,16 +9,14 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - Contribute useful documentation and code to the Flutter ecosystem.
 - Share practical tutorials and eventually work toward Flutter Google Developer Expert recognition.
 
-**Study commitment:** 10 hours per week  
-**Environment:** macOS  
 **Approach:** Learn → Build → Document → Contribute
 
 ## Learning progress
 
-| Lesson | Topic | Status | Exercise |
-| --- | --- | --- | --- |
-| 01 | Variables, types, and interpolation | Completed | [Developer profile](dart-fundamentals/exercises/developer_profile.dart) |
-| 02 | Operators and control flow | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart) |
+| Lesson | Topic                               | Status                                                         | Exercise                                                                |
+| ------ | ----------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 01     | Variables, types, and interpolation | Completed                                                      | [Developer profile](dart-fundamentals/exercises/developer_profile.dart) |
+| 02     | Operators and control flow          | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart)   |
 
 ## Notes
 
