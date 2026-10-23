@@ -24,3 +24,15 @@ For each issue or PR, record:
 - Proposed change and tests
 - PR link and review feedback
 - Outcome and lessons learned
+
+## Lesson 03 — Loops and Collections
+
+**Completed:** October 23, 2026
+
+- Built a Multi-Learner Progress Tracker.
+- Practiced lists, indexing, `for` loops, and conditional statements.
+- Used a counter to identify advanced learners.
+- Used an accumulator to calculate total completed lessons.
+- Corrected mistakes involving undefined variables, string indexing, counter placement, and `+=`.
+
+**Key takeaway:** A loop processes each learner, a condition determines their level, a counter tracks matching learners, and an accumulator maintains the running total.

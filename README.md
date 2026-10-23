@@ -13,16 +13,18 @@ A public learning journal documenting my journey from Dart fundamentals to build
 
 ## Learning progress
 
-| Lesson | Topic                               | Status                                                         | Exercise                                                                |
-| ------ | ----------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 01     | Variables, types, and interpolation | Completed                                                      | [Developer profile](dart-fundamentals/exercises/developer_profile.dart) |
-| 02     | Operators and control flow          | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart)   |
+| Lesson | Topic                               | Status                                                         | Exercise                                                                        |
+| ------ | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 01     | Variables, types, and interpolation | Completed                                                      | [Developer profile](dart-fundamentals/exercises/developer_profile.dart)         |
+| 02     | Operators and control flow          | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart)           |
+| 03     | Loops and collections               | Completed                                                      | [Multi-Learner Tracker](dart-fundamentals/exercises/multi_learner_tracker.dart) |
 
 ## Notes
 
 - [Lesson 01 — Variables and types](dart-fundamentals/01-variables-and-types.md)
 - [Lesson 02 — Operators and control flow](dart-fundamentals/02-operators-and-control-flow.md)
 - [Learning and contribution log](contributions/learning-log.md)
+- [Lesson 03 — Loops and collections](dart-fundamentals/03-loops-and-collections.md)
 
 ## Running the exercises
 
