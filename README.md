@@ -13,11 +13,12 @@ A public learning journal documenting my journey from Dart fundamentals to build
 
 ## Learning progress
 
-| Lesson | Topic                               | Status                                                         | Exercise                                                                        |
-| ------ | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| 01     | Variables, types, and interpolation | Completed                                                      | [Developer profile](dart-fundamentals/exercises/developer_profile.dart)         |
-| 02     | Operators and control flow          | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart)           |
-| 03     | Loops and collections               | Completed                                                      | [Multi-Learner Tracker](dart-fundamentals/exercises/multi_learner_tracker.dart) |
+| Lesson | Topic                               | Status                                                         | Exercise                                                                              |
+| ------ | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 01     | Variables, types, and interpolation | Completed                                                      | [Developer profile](dart-fundamentals/exercises/developer_profile.dart)               |
+| 02     | Operators and control flow          | Completed (logic reviewed; formatting and output polish noted) | [Learning tracker](dart-fundamentals/exercises/learning_tracker.dart)                 |
+| 03     | Loops and collections               | Completed                                                      | [Multi-Learner Tracker](dart-fundamentals/exercises/multi_learner_tracker.dart)       |
+| 04     | Functions and parameters            | Completed                                                      | [Refactored Shopping Cart](dart-fundamentals/exercises/shopping_cart_refactored.dart) |
 
 ## Notes
 
@@ -25,6 +26,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 02 — Operators and control flow](dart-fundamentals/02-operators-and-control-flow.md)
 - [Learning and contribution log](contributions/learning-log.md)
 - [Lesson 03 — Loops and collections](dart-fundamentals/03-loops-and-collections.md)
+- [Lesson 04 — Functions and parameters](dart-fundamentals/04-functions-and-parameters.md)
 
 ## Running the exercises
 
@@ -33,6 +35,7 @@ Install the stable Dart SDK (or Flutter, which bundles Dart), then run:
 ```bash
 dart run dart-fundamentals/exercises/developer_profile.dart
 dart run dart-fundamentals/exercises/learning_tracker.dart
+dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
 ```
 
 Alternatively, paste each exercise into [DartPad](https://dartpad.dev/).
