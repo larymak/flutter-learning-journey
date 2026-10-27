@@ -42,6 +42,20 @@ Use this file to record progress, questions, and contributions without turning e
 
 **Revision goal:** Rebuild a small function-based report from memory after a few days.
 
+## Lesson 05 — Null Safety
+
+**Completed:** October 27, 2026
+
+- Practiced nullable and non-nullable Dart types (`String` and `String?`).
+- Used `??` to supply fallback values and `?.length ?? 0` to safely calculate username length.
+- Built the Developer Profile Manager with two helper functions and a reporting function.
+- Corrected mistakes involving `'null'` versus `null`, parameter scope, positional arguments, void function calls, and exact output formatting.
+- Completed the final coding project and reported passing the knowledge check.
+
+**Key takeaway:** Nullable inputs can be safely transformed into predictable non-null outputs, then reused by a reporting function.
+
+**Revision goal:** Rebuild a two-function null-safe report independently without starter code.
+
 ## Future contribution entries
 
 For each issue or PR, record:
