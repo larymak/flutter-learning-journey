@@ -37,6 +37,7 @@ Install the stable Dart SDK (or Flutter, which bundles Dart), then run:
 ```bash
 dart run dart-fundamentals/exercises/developer_profile.dart
 dart run dart-fundamentals/exercises/learning_tracker.dart
+dart run dart-fundamentals/exercises/multi_learner_tracker.dart
 dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
 dart run dart-fundamentals/exercises/developer_profile_manager.dart
 ```
