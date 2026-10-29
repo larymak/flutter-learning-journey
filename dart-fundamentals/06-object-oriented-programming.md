@@ -1,6 +1,6 @@
 # Lesson 06 — Object-Oriented Programming in Dart
 
-**Status:** Coding milestones complete; final knowledge check pending (October 29, 2026).
+**Status:** Coding milestones complete; Final knowledge check: Passed. (October 29, 2026).
 
 **Project:** [Developer Directory](exercises/developer_directory.dart)
 
@@ -45,8 +45,8 @@ Total completed projects: 17
 - `completedProjects + amount` computes a value but does not update the field; use `+=`.
 - Assigning the calculation to a new local variable also leaves the original field unchanged.
 - Validate `amount > 0`, not the existing project count.
-- Call `developer.showProfile()` on each object *inside* the loop, not on the list or outside the loop.
-- Place one-time object updates *before* the reporting loop; otherwise they repeat for every developer.
+- Call `developer.showProfile()` on each object _inside_ the loop, not on the list or outside the loop.
+- Place one-time object updates _before_ the reporting loop; otherwise they repeat for every developer.
 - Accumulate `developer.completedProjects`, not the entire `developer` object.
 - Use the public getter rather than accessing `_completedProjects` from reporting code.
 - `${developers.length}` evaluates the property; `$developers.length` does not.

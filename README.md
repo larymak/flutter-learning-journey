@@ -20,7 +20,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 | 03     | Loops and collections               | Completed                                                      | [Multi-Learner Tracker](dart-fundamentals/exercises/multi_learner_tracker.dart)         |
 | 04     | Functions and parameters            | Completed                                                      | [Refactored Shopping Cart](dart-fundamentals/exercises/shopping_cart_refactored.dart)   |
 | 05     | Null safety                         | Completed                                                      | [Developer Profile Manager](dart-fundamentals/exercises/developer_profile_manager.dart) |
-| 06     | Object-oriented programming         | Coding complete; knowledge check pending                       | [Developer Directory](dart-fundamentals/exercises/developer_directory.dart)             |
+| 06     | Object-oriented programming         | Completed                                                      | [Developer Directory](dart-fundamentals/exercises/developer_directory.dart)             |
 
 ## Notes
 
