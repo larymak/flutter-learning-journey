@@ -20,6 +20,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 | 03     | Loops and collections               | Completed                                                      | [Multi-Learner Tracker](dart-fundamentals/exercises/multi_learner_tracker.dart)         |
 | 04     | Functions and parameters            | Completed                                                      | [Refactored Shopping Cart](dart-fundamentals/exercises/shopping_cart_refactored.dart)   |
 | 05     | Null safety                         | Completed                                                      | [Developer Profile Manager](dart-fundamentals/exercises/developer_profile_manager.dart) |
+| 06     | Object-oriented programming         | Coding complete; knowledge check pending                       | [Developer Directory](dart-fundamentals/exercises/developer_directory.dart)             |
 
 ## Notes
 
@@ -29,6 +30,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 03 — Loops and collections](dart-fundamentals/03-loops-and-collections.md)
 - [Lesson 04 — Functions and parameters](dart-fundamentals/04-functions-and-parameters.md)
 - [Lesson 05 — Null safety](dart-fundamentals/05-null-safety.md)
+- [Lesson 06 — Object-oriented programming](dart-fundamentals/06-object-oriented-programming.md)
 
 ## Running the exercises
 
@@ -40,6 +42,7 @@ dart run dart-fundamentals/exercises/learning_tracker.dart
 dart run dart-fundamentals/exercises/multi_learner_tracker.dart
 dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
 dart run dart-fundamentals/exercises/developer_profile_manager.dart
+dart run dart-fundamentals/exercises/developer_directory.dart
 ```
 
 Alternatively, paste each exercise into [DartPad](https://dartpad.dev/).

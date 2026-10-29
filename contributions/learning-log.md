@@ -56,6 +56,22 @@ Use this file to record progress, questions, and contributions without turning e
 
 **Revision goal:** Rebuild a two-function null-safe report independently without starter code.
 
+## Lesson 06 — Object-Oriented Programming
+
+**Coding milestones completed:** October 29, 2026  
+**Final knowledge check:** Pending; to complete during free time.
+
+- Created a Developer class, constructor, methods, and multiple instances.
+- Used a library-private `_completedProjects` field with a public read-only getter.
+- Implemented state updates and validated positive project additions.
+- Built a Developer Directory using `List<Developer>`, indexing, and a `for-in` loop.
+- Calculated 3 developers and 17 completed projects using an accumulator.
+- Corrected mistakes involving field versus local-variable updates, validation of the wrong value, method-call scope, loop placement, getter access, and interpolation.
+
+**Key takeaway:** Each object owns its own state; methods change that state, getters expose it for reading, and directory-wide calculations belong in the code processing the list.
+
+**Revision goal:** Rebuild a two-developer directory and summary from memory without starter code. Complete the final knowledge check before marking the full lesson assessed.
+
 ## Future contribution entries
 
 For each issue or PR, record:
