@@ -21,6 +21,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 | 04     | Functions and parameters            | Completed                                                      | [Refactored Shopping Cart](dart-fundamentals/exercises/shopping_cart_refactored.dart)   |
 | 05     | Null safety                         | Completed                                                      | [Developer Profile Manager](dart-fundamentals/exercises/developer_profile_manager.dart) |
 | 06     | Object-oriented programming         | Completed                                                      | [Developer Directory](dart-fundamentals/exercises/developer_directory.dart)             |
+| 07     | Inheritance and polymorphism        | Completed                                                      | [Developer Roles Directory](dart-fundamentals/exercises/developer_roles_directory.dart) |
 
 ## Notes
 
@@ -31,6 +32,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 04 — Functions and parameters](dart-fundamentals/04-functions-and-parameters.md)
 - [Lesson 05 — Null safety](dart-fundamentals/05-null-safety.md)
 - [Lesson 06 — Object-oriented programming](dart-fundamentals/06-object-oriented-programming.md)
+- [Lesson 07 — Inheritance and polymorphism](dart-fundamentals/07-inheritance-and-polymorphism.md)
 
 ## Running the exercises
 
@@ -43,6 +45,7 @@ dart run dart-fundamentals/exercises/multi_learner_tracker.dart
 dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
 dart run dart-fundamentals/exercises/developer_profile_manager.dart
 dart run dart-fundamentals/exercises/developer_directory.dart
+dart run dart-fundamentals/exercises/developer_roles_directory.dart
 ```
 
 Alternatively, paste each exercise into [DartPad](https://dartpad.dev/).

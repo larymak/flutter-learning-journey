@@ -72,6 +72,22 @@ Use this file to record progress, questions, and contributions without turning e
 
 **Revision goal:** Rebuild a two-developer directory and summary from memory without starter code. Complete the final knowledge check before marking the full lesson assessed.
 
+## Lesson 07 — Inheritance and Polymorphism
+
+**Completed:** October 30, 2026  
+**Final knowledge check:** Passed (6/6).
+
+- Built parent and child classes with `extends` and `super(name)`.
+- Overrode `introduce()` for Flutter and backend developer roles.
+- Practiced runtime polymorphism with a mixed `List<Developer>`.
+- Used `is`, `||`, and a conditional counter to identify three specialized developers among four objects.
+- Completed the Developer Roles Directory final report with total, specialized, and general counts.
+- Corrected misuse of `@override`, method naming, punctuation, and summary formatting.
+
+**Key takeaway:** A shared parent type lets one loop work with different child objects, while overridden methods provide type-specific behavior.
+
+**Revision goal:** Rebuild a polymorphic directory and explain runtime method dispatch without looking at the solution.
+
 ## Future contribution entries
 
 For each issue or PR, record:
