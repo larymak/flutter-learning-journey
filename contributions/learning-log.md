@@ -59,7 +59,7 @@ Use this file to record progress, questions, and contributions without turning e
 ## Lesson 06 — Object-Oriented Programming
 
 **Coding milestones completed:** October 29, 2026  
-**Final knowledge check:** Pending; to complete during free time.
+**Final knowledge check:** Passed (5/5).
 
 - Created a Developer class, constructor, methods, and multiple instances.
 - Used a library-private `_completedProjects` field with a public read-only getter.
@@ -70,7 +70,7 @@ Use this file to record progress, questions, and contributions without turning e
 
 **Key takeaway:** Each object owns its own state; methods change that state, getters expose it for reading, and directory-wide calculations belong in the code processing the list.
 
-**Revision goal:** Rebuild a two-developer directory and summary from memory without starter code. Complete the final knowledge check before marking the full lesson assessed.
+**Revision goal:** Rebuild a two-developer directory and summary from memory without starter code.
 
 ## Lesson 07 — Inheritance and Polymorphism
 
