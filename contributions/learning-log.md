@@ -17,8 +17,6 @@ Use this file to record progress, questions, and contributions without turning e
 
 ## Lesson 03 — Loops and Collections
 
-**Completed:** October 23, 2026
-
 - Built a Multi-Learner Progress Tracker.
 - Practiced lists, indexing, `for` loops, and conditional statements.
 - Used a counter to identify advanced learners.
@@ -28,8 +26,6 @@ Use this file to record progress, questions, and contributions without turning e
 **Key takeaway:** A loop processes each learner, a condition determines their level, a counter tracks matching learners, and an accumulator maintains the running total.
 
 ## Lesson 04 — Functions and Parameters
-
-**Completed:** October 26, 2026
 
 - Created a reusable greeting function with one parameter.
 - Used multiple positional parameters to display developer progress.
@@ -43,8 +39,6 @@ Use this file to record progress, questions, and contributions without turning e
 **Revision goal:** Rebuild a small function-based report from memory after a few days.
 
 ## Lesson 05 — Null Safety
-
-**Completed:** October 27, 2026
 
 - Practiced nullable and non-nullable Dart types (`String` and `String?`).
 - Used `??` to supply fallback values and `?.length ?? 0` to safely calculate username length.
@@ -74,7 +68,6 @@ Use this file to record progress, questions, and contributions without turning e
 
 ## Lesson 07 — Inheritance and Polymorphism
 
-**Completed:** October 30, 2026  
 **Final knowledge check:** Passed (6/6).
 
 - Built parent and child classes with `extends` and `super(name)`.
