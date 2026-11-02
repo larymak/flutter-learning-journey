@@ -81,6 +81,23 @@ Use this file to record progress, questions, and contributions without turning e
 
 **Revision goal:** Rebuild a polymorphic directory and explain runtime method dispatch without looking at the solution.
 
+## Lesson 08 — Error Handling and Exceptions
+
+**Completed:** November 2, 2026  
+**Final knowledge check:** Passed (6/6).  
+**Stage 1 Dart Fundamentals:** Completed (8/8 lessons).
+
+- Practiced `try`, `catch`, and `finally` with invalid numeric input.
+- Used `throw Exception(...)` to reject underage registrations.
+- Wrote reusable parsing and validation functions.
+- Built a Developer Input Validator that returns a boolean registration result.
+- Processed four registration maps, accepted two and rejected two.
+- Corrected variable types, exception handling scope, `void` versus `bool` returns, loop counters, subtraction order, and summary placement.
+
+**Key takeaway:** Keep parsing, validation, and reporting responsibilities separate; catch expected failures and communicate success to the caller with a meaningful return value.
+
+**Retention goal:** Rebuild the registration report independently and test valid, underage, and malformed inputs.
+
 ## Future contribution entries
 
 For each issue or PR, record:

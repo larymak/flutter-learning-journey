@@ -22,6 +22,9 @@ A public learning journal documenting my journey from Dart fundamentals to build
 | 05     | Null safety                         | Completed                                                      | [Developer Profile Manager](dart-fundamentals/exercises/developer_profile_manager.dart) |
 | 06     | Object-oriented programming         | Completed                                                      | [Developer Directory](dart-fundamentals/exercises/developer_directory.dart)             |
 | 07     | Inheritance and polymorphism        | Completed                                                      | [Developer Roles Directory](dart-fundamentals/exercises/developer_roles_directory.dart) |
+| 08     | Error handling and exceptions       | Completed                                                      | [Developer Input Validator](dart-fundamentals/exercises/developer_input_validator.dart) |
+
+**Stage 1 — Dart Fundamentals: Complete (8/8 lessons).**
 
 ## Notes
 
@@ -33,6 +36,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 05 — Null safety](dart-fundamentals/05-null-safety.md)
 - [Lesson 06 — Object-oriented programming](dart-fundamentals/06-object-oriented-programming.md)
 - [Lesson 07 — Inheritance and polymorphism](dart-fundamentals/07-inheritance-and-polymorphism.md)
+- [Lesson 08 — Error handling and exceptions](dart-fundamentals/08-error-handling-and-exceptions.md)
 
 ## Running the exercises
 
@@ -46,6 +50,7 @@ dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
 dart run dart-fundamentals/exercises/developer_profile_manager.dart
 dart run dart-fundamentals/exercises/developer_directory.dart
 dart run dart-fundamentals/exercises/developer_roles_directory.dart
+dart run dart-fundamentals/exercises/developer_input_validator.dart
 ```
 
 Alternatively, paste each exercise into [DartPad](https://dartpad.dev/).
