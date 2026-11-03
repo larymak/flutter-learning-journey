@@ -83,7 +83,6 @@ Use this file to record progress, questions, and contributions without turning e
 
 ## Lesson 08 — Error Handling and Exceptions
 
-**Completed:** November 2, 2026  
 **Final knowledge check:** Passed (6/6).  
 **Stage 1 Dart Fundamentals:** Completed (8/8 lessons).
 
