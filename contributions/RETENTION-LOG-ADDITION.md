@@ -1,21 +1,14 @@
 ## Stage 1 — Dart Fundamentals Retention Assessment
 
-**Progress:** 2/4 checkpoints approved. Stage 2 not started.
+**Status:** Completed (4/4 checkpoints). All eight Dart fundamentals lessons were previously completed.
 
-### Checkpoint 01 — Developer Model
+- **Checkpoint 01 — Developer Model:** Approved after hints and corrections to class syntax, object state mutation, null fallback, and method calls.
+- **Checkpoint 02 — Specialized Developers:** Passed independently on the first attempt without notes, demonstrating inheritance, overriding, and constructor chaining.
+- **Checkpoint 03 — Registry Report:** Independent attempt required one correction from method reference to method invocation; calculated 4 developers and 18 completed projects.
+- **Checkpoint 04 — Error Handling:** Independent attempt retained class and validation concepts but required guided corrections to build the `try/catch/finally` flow. Final project preserved 7 completed projects after rejecting a negative update.
 
-- **Status:** Approved after guided corrections.
-- **Independence:** Initial attempt completed without notes.
-- **Strengths:** Types, constructor shorthand, getter, positive-amount validation.
-- **Corrections:** Class declaration, null-aware fallback, object construction, instance calls, and updating `_completedProjects` instead of the local `amount`.
-- **Outcome:** Correct developer profile with 6 completed projects.
+**Strengths:** OOP fundamentals, inheritance, polymorphism, null safety, getters, lists, loops, and accumulators.
 
-### Checkpoint 02 — Specialized Developers
+**Practice targets:** Independent exception-handling structure, block scope, method invocation syntax, and single-object versus collection distinctions.
 
-- **Status:** Approved on first attempt.
-- **Independence:** Completed without notes.
-- **Strengths:** `extends`, `super(...)`, `@override`, inherited methods, null-safe display, and correct state mutation.
-- **Improvements suggested:** Consistent formatting and descriptive child constructor parameter names.
-- **Outcome:** Correct Flutter and backend introductions, plus inherited backend profile output.
-
-**Reflection:** Independent application improved between checkpoints. Continue reinforcing state mutation and object method calls in future projects.
+**Outcome:** Stage 1 and its retention assessment are complete. Stage 2 has not started.
