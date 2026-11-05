@@ -26,11 +26,9 @@ A public learning journal documenting my journey from Dart fundamentals to build
 
 **Stage 1 — Dart Fundamentals: Complete (8/8 lessons).**
 
-## Stage 1 retention assessment
+## Stage 1 assessment
 
-- [Retention assessment overview](dart-fundamentals/retention-assessment/README.md) — 4/4 checkpoints approved
-- [Checkpoint 01 — Developer Model](dart-fundamentals/retention-assessment/checkpoint-01-developer-model.dart) — approved after corrections
-- [Checkpoint 02 — Specialized Developers](dart-fundamentals/retention-assessment/checkpoint-02-specialized-developers.dart) — approved independently on first attempt
+- [Assessment overview](dart-fundamentals/retention-assessment/README.md)
 
 ## Notes
 
