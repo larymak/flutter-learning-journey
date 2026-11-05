@@ -1,17 +1,17 @@
 # Stage 1 — Dart Fundamentals Retention Assessment
 
 **Stage 1 curriculum:** Completed (8/8 lessons).  
-**Retention assessment:** 2/4 checkpoints approved.  
+**Retention assessment:** Completed (4/4 checkpoints approved).
 **Stage 2:** Not started.
 
 This assessment checks whether I can apply Dart fundamentals independently after completing the lessons. The checkpoints distinguish initial recall from later corrections; approved code alone is not evidence that an attempt was error-free.
 
-| Checkpoint | Topic                                                               | Status   | Independence                                                     |
-| ---------- | ------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- |
-| 01         | [Developer Model](checkpoint-01-developer-model.dart)               | Approved | Initial attempt without notes; approved after guided corrections |
-| 02         | [Specialized Developers](checkpoint-02-specialized-developers.dart) | Approved | Passed first attempt without notes; formatting suggestions only  |
-| 03         | Registry Report                                                     | Pending  | Not assessed                                                     |
-| 04         | Error Handling                                                      | Pending  | Not assessed                                                     |
+| Checkpoint | Topic                                                               | Status   | Independence                                                             |
+| ---------- | ------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------ |
+| 01         | [Developer Model](checkpoint-01-developer-model.dart)               | Approved | Initial attempt without notes; approved after guided corrections         |
+| 02         | [Specialized Developers](checkpoint-02-specialized-developers.dart) | Approved | Passed first attempt without notes; formatting suggestions only          |
+| 03         | [Developer Registry Report](checkpoint-03-registry-report.dart)     | Approved | Initial attempt without notes; approved after one method-call correction |
+| 04         | [Safe Project Updates](checkpoint-04-error-handling.dart)           | Approved | Initial attempt without notes; approved after guided corrections         |
 
 ## Checkpoint 01 — Developer Model
 

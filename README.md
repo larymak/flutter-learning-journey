@@ -28,7 +28,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 
 ## Stage 1 retention assessment
 
-- [Retention assessment overview](dart-fundamentals/retention-assessment/README.md) — 2/4 checkpoints approved
+- [Retention assessment overview](dart-fundamentals/retention-assessment/README.md) — 4/4 checkpoints approved
 - [Checkpoint 01 — Developer Model](dart-fundamentals/retention-assessment/checkpoint-01-developer-model.dart) — approved after corrections
 - [Checkpoint 02 — Specialized Developers](dart-fundamentals/retention-assessment/checkpoint-02-specialized-developers.dart) — approved independently on first attempt
 
