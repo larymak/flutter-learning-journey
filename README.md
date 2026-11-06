@@ -42,6 +42,17 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 07 — Inheritance and polymorphism](dart-fundamentals/07-inheritance-and-polymorphism.md)
 - [Lesson 08 — Error handling and exceptions](dart-fundamentals/08-error-handling-and-exceptions.md)
 
+## Stage 2 — Flutter Fundamentals
+
+**Progress: 1/8 lessons completed.**
+
+| Lesson | Topic                                                                       | Status                          | Project                                              |
+| ------ | --------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- |
+| 01     | [Your First Flutter App](flutter-fundamentals/01-your-first-flutter-app.md) | Completed — Knowledge check 3/3 | [hello_flutter](flutter-fundamentals/hello_flutter/) |
+| 02     | Layouts and Widget Composition                                              | Not started                     | —                                                    |
+
+**Learning approach:** Short explanations, hands-on practice, hints before solutions, and code review before progressing.
+
 ## Running the exercises
 
 Install the stable Dart SDK (or Flutter, which bundles Dart), then run:
