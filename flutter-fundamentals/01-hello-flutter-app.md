@@ -336,7 +336,7 @@ The explicit form can be easier to read while learning. Dot shorthand requires a
 
 ---
 
-## Lesson 1 — Key Concepts Summary
+## Key Concepts Summary
 
 | Concept             | Purpose                                        |
 | ------------------- | ---------------------------------------------- |
