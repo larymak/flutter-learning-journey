@@ -1,10 +1,15 @@
-## Stage 2 — Flutter Fundamentals
+# Stage 2 — Flutter Fundamentals
 
-**Progress: 1/8 lessons completed.**
+**Progress: 2/8 lessons completed.**
 
-| Lesson | Topic                                                                       | Status                          | Project                                              |
-| ------ | --------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------- |
-| 01     | [Your First Flutter App](flutter-fundamentals/01-your-first-flutter-app.md) | Completed — Knowledge check 3/3 | [hello_flutter](flutter-fundamentals/hello_flutter/) |
-| 02     | Layouts and Widget Composition                                              | Not started                     | —                                                    |
+| Lesson | Topic                                                                | Status          |
+| ------ | -------------------------------------------------------------------- | --------------- |
+| 01     | Your First Flutter App                                               | Completed — 3/3 |
+| 02     | [Layouts & Widget Composition](02-layouts-and-widget-composition.md) | Completed — 5/5 |
+| 03     | Interactivity & State                                                | Not started     |
+
+**Current project:** `hello_flutter`
+
+**Learning approach:** Learn → Build → Review → Document.
 
 **Learning approach:** Short explanations, hands-on practice, hints before solutions, and code review before progressing.

@@ -55,6 +55,32 @@ class _MyHomePageState extends State<MyHomePage> {
               'I am learning Flutter!',
               style: TextStyle(fontSize: 24),
             ),
+            Column(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  padding: EdgeInsets.all(16),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          CircleAvatar(radius: 28, child: Icon(Icons.person)),
+                          SizedBox(width: 12),
+                          Column(
+                            children: [Text('Lary'), Text('Flutter Developer')],
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 16),
+                      Row(children: [Text('Completed Projects'), Text('4')]),
+                    ],
+                  ),
+                ),
+              ],
+            ),
 
             Text(
               '$_counter',
