@@ -1,9 +1,7 @@
 # Lesson 02 — Layouts and Widget Composition
 
-**Stage:** 2 — Flutter Fundamentals  
-**Status:** Completed  
-**Knowledge check:** Passed (5/5)  
-**Project:** Developer Profile Card (`hello_flutter`)
+**Stage:** 2 — Flutter Fundamentals
+**Project:** Developer Profile Card
 
 ## Learning objectives
 
