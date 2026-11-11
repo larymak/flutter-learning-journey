@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Flutter Journey',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -29,10 +29,23 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  int completedProjects = 4;
 
   void _incrementCounter() {
     setState(() {
       _counter++;
+    });
+  }
+
+  void _incrementProjects() {
+    setState(() {
+      completedProjects++;
+    });
+  }
+
+  void _resetProjects() {
+    setState(() {
+      completedProjects = 4;
     });
   }
 
@@ -45,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: .center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
               'Welcome to my Flutter learning journey!',
@@ -62,10 +75,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  padding: EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(16),
                   child: Column(
                     children: [
-                      Row(
+                      const Row(
                         children: [
                           CircleAvatar(radius: 28, child: Icon(Icons.person)),
                           SizedBox(width: 12),
@@ -74,14 +87,26 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      SizedBox(height: 16),
-                      Row(children: [Text('Completed Projects'), Text('4')]),
+                      const SizedBox(height: 16),
+                      Row(
+                        children: [
+                          const Text('Completed Projects'),
+                          Text('$completedProjects'),
+                        ],
+                      ),
+                      ElevatedButton(
+                        onPressed: _incrementProjects,
+                        child: const Text('Complete a Project'),
+                      ),
+                      ElevatedButton(
+                        onPressed: _resetProjects,
+                        child: const Text('Reset Projects'),
+                      ),
                     ],
                   ),
                 ),
               ],
             ),
-
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
