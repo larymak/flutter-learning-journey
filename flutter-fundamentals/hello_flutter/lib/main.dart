@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Flutter Journey',
-      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -31,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   int completedProjects = 4;
   String developerName = 'Lary';
-  String? nameError = null;
+  String? nameError;
   final nameController = TextEditingController();
 
   void _incrementCounter() {
@@ -60,10 +62,22 @@ class _MyHomePageState extends State<MyHomePage> {
       print('Name cannot be empty');
       return;
     }
+
     setState(() {
       developerName = nameController.text;
       nameError = null;
     });
+  }
+
+  void _openProjects() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ProjectsScreen(
+          completedProjects: completedProjects,
+        ),
+      ),
+    );
   }
 
   @override
@@ -102,7 +116,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     Row(
                       children: [
-                        const CircleAvatar(radius: 28, child: Icon(Icons.person)),
+                        const CircleAvatar(
+                          radius: 28,
+                          child: Icon(Icons.person),
+                        ),
                         const SizedBox(width: 12),
                         Column(
                           children: [
@@ -138,6 +155,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       onPressed: _updateProfile,
                       child: const Text('Update Profile'),
                     ),
+                    ElevatedButton(
+                      onPressed: _openProjects,
+                      child: const Text('View My Projects'),
+                    ),
                   ],
                 ),
               ),
@@ -153,6 +174,33 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
+      ),
+    );
+  }
+}
+
+class ProjectsScreen extends StatelessWidget {
+  const ProjectsScreen({super.key, required this.completedProjects});
+
+  final int completedProjects;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('My Projects')),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Completed Projects: $completedProjects'),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text('Go Back'),
+            ),
+          ],
+        ),
       ),
     );
   }
