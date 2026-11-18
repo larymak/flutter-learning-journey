@@ -184,6 +184,12 @@ class ProjectsScreen extends StatelessWidget {
 
   final int completedProjects;
 
+  static const List<String> projectNames = [
+    'Developer Profile Card',
+    'Project Tracker',
+    'Profile Editor',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -193,6 +199,18 @@ class ProjectsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Completed Projects: $completedProjects'),
+            Expanded(
+              child: ListView.builder(
+                itemCount: projectNames.length,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    leading: const Icon(Icons.folder),
+                    title: Text(projectNames[index]),
+                    subtitle: const Text('Flutter learning project'),
+                  );
+                },
+              ),
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
