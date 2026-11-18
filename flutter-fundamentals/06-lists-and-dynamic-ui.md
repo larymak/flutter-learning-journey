@@ -32,11 +32,11 @@ static const List<String> projectNames = [
 
 `List<String>` declares a collection whose elements are Strings. `static` makes the list a property of the class, rather than each widget instance. `const` makes the list immutable. Each entry has an index starting with 0.
 
-| Index | Value |
-| ---: | --- |
-| 0 | Developer Profile Card |
-| 1 | Project Tracker |
-| 2 | Profile Editor |
+| Index | Value                  |
+| ----: | ---------------------- |
+|     0 | Developer Profile Card |
+|     1 | Project Tracker        |
+|     2 | Profile Editor         |
 
 `projectNames.length` returns 3. The **number of elements** is 3 even though the **largest valid index** is 2.
 
@@ -104,17 +104,6 @@ Expanded(
 - `Text(...)` displays that String.
 - Flutter builds children on demand instead of constructing every item in a single explicit `children` list.
 
-### Common mistake: no returned widget
-
-An early attempt had an empty callback:
-
-```dart
-itemBuilder: (context, index) {
-},
-```
-
-The builder must return a Widget. The learner corrected this by returning `Text(projectNames[index])`, which went beyond the temporary `SizedBox()` placeholder requested in the exercise.
-
 ### Understanding indexes
 
 - Index 0: `Developer Profile Card`
@@ -174,35 +163,6 @@ ElevatedButton(
 
 The complete application source is [`hello_flutter/lib/main.dart`](hello_flutter/lib/main.dart). The Profile Editor, project counter, and navigation from earlier lessons remain in the app.
 
-## 7. Chrome testing and assessment
-
-All reported browser tests passed. Chrome was used by the learner; these results are not independent automated tests of the packaged source.
-
-### Milestone 2 — ListView: 4/4
-
-- ProjectsScreen opened without error.
-- All three names appeared in order.
-- Project count and Go Back button remained visible.
-- Returning to Developer Profile worked.
-
-### Milestone 3 — ListView.builder: 4/4
-
-- ProjectsScreen opened.
-- Builder displayed all three names in order.
-- Completed project count was correct.
-- Go Back navigation worked.
-
-### Milestone 4 — ListTile: 4/4
-
-- ProjectsScreen opened.
-- Names and folder icons appeared.
-- Each tile displayed the subtitle `Flutter learning project`.
-- Go Back worked.
-
-**Final knowledge check:** 6/6 passed.  
-**Milestones completed:** 5/5.  
-**Result:** Lesson 6 approved.
-
 ## 8. Key takeaways
 
 1. Keep the data in a typed collection rather than duplicating it across widgets.
@@ -213,10 +173,6 @@ All reported browser tests passed. Chrome was used by the learner; these results
 6. `projectNames.length` is the total number of list elements, not the last valid index.
 7. `ListTile` makes item layouts consistent with `leading`, `title`, and `subtitle`.
 8. Verify new UI changes without breaking navigation and previously built features.
-
-## 9. Retention challenge
-
-Without copying the finished code, add a fourth project name to `projectNames` and predict what `itemCount` and the valid indexes become. Then build a three-item list using `ListView.builder` and `ListTile` from memory. Explain why the builder must return a widget and why its ListView needs a height constraint.
 
 ## References
 
