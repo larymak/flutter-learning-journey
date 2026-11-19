@@ -9,7 +9,7 @@
 | 03     | [Interactivity & State](03-interactivity-and-state.md)                 | Completed — 6/6                      |
 | 04     | [User Input & Forms](04-user-input-and-forms.md)                       | Completed — 6/6                      |
 | 05     | [Navigation & Multiple Screens](05-navigation-and-multiple-screens.md) | Completed — 6/6                      |
-| 06     | [Lists & Dynamic UI](06-lists-and-dynamic-ui.md)                       | Completed — 6/6; Chrome tests passed |
+| 06     | [Lists & Dynamic UI](06-lists-and-dynamic-ui.md)                       | Completed — |
 | 07     | Next lesson                                                            | Not started                          |
 | 08     | Future lesson                                                          | Not started                          |
 
