@@ -2,9 +2,7 @@
 
 **Stage:** 2 — Flutter Fundamentals  
 **Status:** Completed  
-**Knowledge check:** 6/6  
-**Project:** Developer Project Tracker (`hello_flutter`)  
-**Chrome testing:** 4/4 final interaction tests passed (learner-reported)
+**Project:** Developer Project Tracker (`hello_flutter`)
 
 ## Learning objectives
 
@@ -107,12 +105,12 @@ Built on the Developer Profile Card from Lesson 2, the app shows the developer's
 
 ## 7. Chrome test results
 
-| Test | Expected | Result |
-| --- | ---: | --- |
-| Open app | 4 | Passed |
-| Press Complete a Project twice | 6 | Passed |
-| Press Reset Projects | 4 | Passed |
-| Press Complete a Project again | 5 | Passed |
+| Test                           | Expected | Result |
+| ------------------------------ | -------: | ------ |
+| Open app                       |        4 | Passed |
+| Press Complete a Project twice |        6 | Passed |
+| Press Reset Projects           |        4 | Passed |
+| Press Complete a Project again |        5 | Passed |
 
 Earlier increment-only tests (4 → 5 → 7) also passed. These results were reported after running the app in Chrome.
 

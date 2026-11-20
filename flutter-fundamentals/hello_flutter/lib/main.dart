@@ -62,7 +62,6 @@ class _MyHomePageState extends State<MyHomePage> {
       print('Name cannot be empty');
       return;
     }
-
     setState(() {
       developerName = nameController.text;
       nameError = null;
@@ -179,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-class ProjectsScreen extends StatelessWidget {
+class ProjectsScreen extends StatefulWidget {
   const ProjectsScreen({super.key, required this.completedProjects});
 
   final int completedProjects;
@@ -191,6 +190,25 @@ class ProjectsScreen extends StatelessWidget {
   ];
 
   @override
+  State<ProjectsScreen> createState() => _ProjectsScreenState();
+}
+
+class _ProjectsScreenState extends State<ProjectsScreen> {
+  final List<String> projects = List<String>.of(ProjectsScreen.projectNames);
+
+  void _addProject() {
+    setState(() {
+      projects.add('Portfolio App');
+    });
+  }
+
+  void _removeProject(int index) {
+    setState(() {
+      projects.removeAt(index);
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('My Projects')),
@@ -198,18 +216,26 @@ class ProjectsScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Completed Projects: $completedProjects'),
+            Text('Completed Projects: ${widget.completedProjects}'),
             Expanded(
               child: ListView.builder(
-                itemCount: projectNames.length,
+                itemCount: projects.length,
                 itemBuilder: (context, index) {
                   return ListTile(
                     leading: const Icon(Icons.folder),
-                    title: Text(projectNames[index]),
+                    title: Text(projects[index]),
                     subtitle: const Text('Flutter learning project'),
+                    trailing: IconButton(
+                      icon: const Icon(Icons.delete),
+                      onPressed: () => _removeProject(index),
+                    ),
                   );
                 },
               ),
+            ),
+            ElevatedButton(
+              onPressed: _addProject,
+              child: const Text('Add Project'),
             ),
             ElevatedButton(
               onPressed: () {

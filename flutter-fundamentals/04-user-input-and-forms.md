@@ -2,9 +2,7 @@
 
 **Stage:** 2 — Flutter Fundamentals  
 **Status:** Completed  
-**Final knowledge check:** 6/6  
-**Project:** Developer Profile Editor (`hello_flutter`)  
-**Chrome testing:** 4/4 validation tests passed (learner-reported)
+**Project:** Developer Profile Editor (`hello_flutter`)
 
 ## Learning objectives
 

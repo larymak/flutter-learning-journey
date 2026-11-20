@@ -2,9 +2,7 @@
 
 **Stage:** 2 — Flutter Fundamentals  
 **Status:** Completed  
-**Final knowledge check:** 6/6  
-**Project:** Dynamic Projects List in `hello_flutter`  
-**Testing:** ListView, ListView.builder, and ListTile Chrome checks passed (learner-reported)
+**Project:** Dynamic Projects List in `hello_flutter`
 
 ## Learning objectives
 

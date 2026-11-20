@@ -2,9 +2,7 @@
 
 **Stage:** 2 — Flutter Fundamentals  
 **Status:** Completed  
-**Final knowledge check:** 6/6  
-**Project:** Developer Portfolio App (`hello_flutter`)  
-**Chrome testing:** Forward navigation, back navigation, and constructor data-passing tests passed (learner-reported)
+**Project:** Developer Portfolio App (`hello_flutter`)
 
 ## Learning objectives
 
@@ -211,12 +209,12 @@ The learner reported that all these tests passed:
 
 ### Constructor data passing (4/4)
 
-| Test | Expected | Result |
-| --- | --- | --- |
-| Open Projects from starting count | 4 | Passed |
-| Increment profile count twice, reopen Projects | 6 | Passed |
-| Reset profile count, reopen Projects | 4 | Passed |
-| Return to Profile | Navigation works | Passed |
+| Test                                           | Expected         | Result |
+| ---------------------------------------------- | ---------------- | ------ |
+| Open Projects from starting count              | 4                | Passed |
+| Increment profile count twice, reopen Projects | 6                | Passed |
+| Reset profile count, reopen Projects           | 4                | Passed |
+| Return to Profile                              | Navigation works | Passed |
 
 These results are from the learner's reported Chrome tests, not an independent test run of the packaged source.
 
