@@ -72,9 +72,8 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => ProjectsScreen(
-          completedProjects: completedProjects,
-        ),
+        builder: (context) =>
+            ProjectsScreen(completedProjects: completedProjects),
       ),
     );
   }
@@ -196,6 +195,26 @@ class ProjectsScreen extends StatefulWidget {
 class _ProjectsScreenState extends State<ProjectsScreen> {
   final List<String> projects = List<String>.of(ProjectsScreen.projectNames);
 
+  bool isLoading = false;
+
+  Future<void> _loadProjects() async {
+    setState(() {
+      isLoading = true;
+    });
+    List<String> projects = await _fetchProjects();
+    if (!mounted) return;
+    setState(() {
+      isLoading = false;
+      this.projects.clear();
+      this.projects.addAll(projects);
+    });
+  }
+
+  Future<List<String>> _fetchProjects() async {
+    await Future.delayed(const Duration(seconds: 2));
+    return ['Weather App', 'Task Manager', 'Portfolio Website'];
+  }
+
   void _addProject() {
     setState(() {
       projects.add('Portfolio App');
@@ -218,23 +237,29 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
           children: [
             Text('Completed Projects: ${widget.completedProjects}'),
             Expanded(
-              child: ListView.builder(
-                itemCount: projects.length,
-                itemBuilder: (context, index) {
-                  return ListTile(
-                    leading: const Icon(Icons.folder),
-                    title: Text(projects[index]),
-                    subtitle: const Text('Flutter learning project'),
-                    trailing: IconButton(
-                      icon: const Icon(Icons.delete),
-                      onPressed: () => _removeProject(index),
+              child: isLoading
+                  ? const Center(child: CircularProgressIndicator())
+                  : ListView.builder(
+                      itemCount: projects.length,
+                      itemBuilder: (context, index) {
+                        return ListTile(
+                          leading: const Icon(Icons.folder),
+                          title: Text(projects[index]),
+                          subtitle: const Text('Flutter learning project'),
+                          trailing: IconButton(
+                            icon: const Icon(Icons.delete),
+                            onPressed: () => _removeProject(index),
+                          ),
+                        );
+                      },
                     ),
-                  );
-                },
-              ),
             ),
             ElevatedButton(
-              onPressed: _addProject,
+              onPressed: _loadProjects,
+              child: const Text('Load Projects'),
+            ),
+            ElevatedButton(
+              onPressed: isLoading ? null : _addProject,
               child: const Text('Add Project'),
             ),
             ElevatedButton(
