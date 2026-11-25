@@ -1,7 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
+
+import 'todo_page.dart';
 
 void main() {
-  print('My Flutter learning journey has started!');
+  debugPrint('My Flutter learning journey has started!');
   runApp(const MyApp());
 }
 
@@ -59,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
       setState(() {
         nameError = 'Name cannot be empty';
       });
-      print('Name cannot be empty');
+      debugPrint('Name cannot be empty');
       return;
     }
     setState(() {
@@ -75,6 +77,13 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (context) =>
             ProjectsScreen(completedProjects: completedProjects),
       ),
+    );
+  }
+
+  void _openToDoPage() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const ToDoPage()),
     );
   }
 
@@ -156,6 +165,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     ElevatedButton(
                       onPressed: _openProjects,
                       child: const Text('View My Projects'),
+                    ),
+                    ElevatedButton(
+                      onPressed: _openToDoPage,
+                      child: const Text('Open To-Do Manager'),
                     ),
                   ],
                 ),
@@ -254,6 +267,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
                       },
                     ),
             ),
+
             ElevatedButton(
               onPressed: _loadProjects,
               child: const Text('Load Projects'),

@@ -42,6 +42,16 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 07 — Inheritance and polymorphism](dart-fundamentals/07-inheritance-and-polymorphism.md)
 - [Lesson 08 — Error handling and exceptions](dart-fundamentals/08-error-handling-and-exceptions.md)
 
+## Stage 2 — Flutter Fundamentals
+
+[Explore Stage 2 lessons](flutter-fundamentals/README.md)
+
+## Stage 3 — State Management
+
+- [Lesson 01 — Local vs. Shared State: Notes](state-management/01-local-vs-shared-state.md)
+- [Lesson 01 — Practice exercises](state-management/exercises/01-local-vs-shared-state.md)
+- [Lesson 01 — Separate solutions](state-management/solutions/01-local-vs-shared-state.md)
+
 ## Running the exercises
 
 Install the stable Dart SDK (or Flutter, which bundles Dart), then run:

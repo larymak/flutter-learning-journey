@@ -14,6 +14,10 @@
 | 07     | [Managing Lists with State](07-managing-lists-with-state.md)                                   | Completed — 6/6 |
 | 08     | [Asynchronous Programming & Loading States](08-asynchronous-programming-and-loading-states.md) | Completed — 8/8 |
 
+## Continue learning
+
+Next: [Stage 3 — State Management](../state-management/README.md), beginning with [Local vs. Shared State](../state-management/01-local-vs-shared-state.md).
+
 ## Capstone overview
 
 The `hello_flutter` app combines a profile screen, editable developer name, project completion counter, multiple-screen navigation, dynamic project list, index-based deletion, and simulated asynchronous loading of a new project list. It displays a loading indicator, disables the Load Projects button while loading, and guards against `setState` after disposal using `mounted`.

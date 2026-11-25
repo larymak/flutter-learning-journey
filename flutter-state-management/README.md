@@ -1,39 +1,36 @@
-# Stage 3 — Flutter State Management
+# Stage 3 — State Management
 
-**Overall status:** In progress — 0/6 planned lessons complete.  
-**Current focus:** Lesson 01, Milestone 3; Exercises 1 and 2 approved; Exercise 3 not started.
+Learn how to choose where state lives, coordinate related widgets, and keep a single source of truth.
 
-## Planned learning roadmap
+## Lessons
 
-| Lesson | Topic | Status |
-|---|---|---|
-| 01 | [Local vs. Shared State](01-local-vs-shared-state.md) | **In progress** — Milestones 1 and 2 approved; Milestone 3 ongoing |
-| 02 | Sharing Data Between Widgets | Not started |
-| 03 | Provider | Not started |
-| 04 | Riverpod | Not started |
-| 05 | Bloc and Cubit Fundamentals | Not started |
-| 06 | Final Project & Assessment | Not started |
+| Lesson | Notes | Exercises | Solutions |
+| --- | --- | --- | --- |
+| 01 — Local vs. Shared State | [Read notes](01-local-vs-shared-state.md) | [Work through exercises](exercises/01-local-vs-shared-state.md) | [Solution guide](solutions/01-local-vs-shared-state.md) |
 
-The roadmap is a learning plan, not a claim that future work has been completed. Dates and specific future exercises are not yet fixed.
+## How to use this section
 
-## Lesson 1 reviewed progress
+1. Read the concept notes and run the small examples.
+2. Complete the exercises without looking at the answers.
+3. Follow the **Solution** link beneath each exercise only after attempting it.
+4. Build the To-Do Manager inside the existing [Flutter app](../flutter-fundamentals/hello_flutter/), preserving the earlier Profile and Projects screens.
+5. Compare behavior with the acceptance criteria, then use `flutter analyze` and run the app.
 
-| Checkpoint | Result |
-|---|---:|
-| Milestone 1 — State Ownership, 3 exercises | 6/6; complete |
-| Milestone 2 — Passing State and Callbacks, 5 exercises | 31/31; complete |
-| Milestone 3 — Exercise 1, duplicated state | 3/3; approved |
-| Milestone 3 — Exercise 2, derived state | 3/3; approved |
-| **Total reviewed so far** | **43/43** |
+### Lesson 01 learning outcomes
 
-The scores represent rubric checks from the interactive learning exercises and are not independent automated Flutter test results.
+- Distinguish local widget state from data shared across widgets.
+- Choose the nearest common ancestor to own shared state.
+- Pass values down via constructors and events up via callbacks.
+- Use `VoidCallback`, `ValueChanged<String>`, and `setState()`.
+- Avoid duplicate state by deriving values from primary data.
+- Filter collections case-insensitively and handle empty search queries.
+- Build a searchable To-Do Manager using three widgets.
+- Navigate to the new screen without replacing an existing screen.
 
-## Next step
+## References
 
-Start **Lesson 1, Milestone 3, Exercise 3** only when explicitly requested. Do not mark Lesson 1 complete yet.
-
-## Prior stages
-
-- Stage 1 — Dart Fundamentals: **8/8 complete**.
-- Stage 2 — Flutter Fundamentals: **8/8 complete**.
-- Stage 3 — Flutter State Management: **0/6 lessons complete; Lesson 1 in progress**.
+- [Flutter state management](https://docs.flutter.dev/data-and-backend/state-mgmt/intro)
+- [Simple app state management](https://docs.flutter.dev/data-and-backend/state-mgmt/simple)
+- [StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
+- [ValueChanged](https://api.flutter.dev/flutter/foundation/ValueChanged.html)
+- [Dart collections](https://dart.dev/language/collections)
