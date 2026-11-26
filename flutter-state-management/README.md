@@ -4,9 +4,10 @@ Learn how to choose where state lives, coordinate related widgets, and keep a si
 
 ## Lessons
 
-| Lesson | Notes | Exercises | Solutions |
-| --- | --- | --- | --- |
-| 01 — Local vs. Shared State | [Read notes](01-local-vs-shared-state.md) | [Work through exercises](exercises/01-local-vs-shared-state.md) | [Solution guide](solutions/01-local-vs-shared-state.md) |
+| Lesson                                          | Notes                                       | Exercises                                                             | Solutions                                                             |
+| ----------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 01 — Local vs. Shared State                     | [Read notes](01-local-vs-shared-state.md)   | [Work through exercises](exercises/01-local-vs-shared-state.md)       | [Solution guide](solutions/01-local-vs-shared-state.md)               |
+| 02 — Sharing Data Between Widgets (Milestone 1) | [Notes](02-sharing-data-between-widgets.md) | [Exercises](exercises/02-sharing-data-between-widgets-milestone-1.md) | [Solutions](solutions/02-sharing-data-between-widgets-milestone-1.md) |
 
 ## How to use this section
 

@@ -51,21 +51,7 @@ A public learning journal documenting my journey from Dart fundamentals to build
 - [Lesson 01 — Local vs. Shared State: Notes](state-management/01-local-vs-shared-state.md)
 - [Lesson 01 — Practice exercises](state-management/exercises/01-local-vs-shared-state.md)
 - [Lesson 01 — Separate solutions](state-management/solutions/01-local-vs-shared-state.md)
-
-## Running the exercises
-
-Install the stable Dart SDK (or Flutter, which bundles Dart), then run:
-
-```bash
-dart run dart-fundamentals/exercises/developer_profile.dart
-dart run dart-fundamentals/exercises/learning_tracker.dart
-dart run dart-fundamentals/exercises/multi_learner_tracker.dart
-dart run dart-fundamentals/exercises/shopping_cart_refactored.dart
-dart run dart-fundamentals/exercises/developer_profile_manager.dart
-dart run dart-fundamentals/exercises/developer_directory.dart
-dart run dart-fundamentals/exercises/developer_roles_directory.dart
-dart run dart-fundamentals/exercises/developer_input_validator.dart
-```
+- [Lesson 02 — Sharing Data Between Widgets (Milestone 1): Notes](state-management/02-sharing-data-between-widgets.md)
 
 Alternatively, paste each exercise into [DartPad](https://dartpad.dev/).
 
