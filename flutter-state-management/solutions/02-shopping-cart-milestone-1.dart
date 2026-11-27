@@ -1,9 +1,4 @@
-// Lesson 02, Milestone 1 — Runnable Shopping Cart example.
-// Place this code into a Flutter app's lib/main.dart to run it standalone.
-// If your project's supported Material library is the standalone material_ui
-// package, replace the import below with:
-// import 'package:material_ui/material_ui.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() {
   runApp(const ShoppingCartExampleApp());
@@ -14,9 +9,7 @@ class ShoppingCartExampleApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: ShoppingPage(),
-    );
+    return const MaterialApp(home: ShoppingPage());
   }
 }
 
@@ -93,9 +86,6 @@ class AddToCartButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onAdd,
-      child: const Text('Add to Cart'),
-    );
+    return ElevatedButton(onPressed: onAdd, child: const Text('Add to Cart'));
   }
 }
